@@ -14,8 +14,8 @@ class Solution:
                     return False
 
         return not stack            
-
-
 s1 = Solution()
 print(s1.isValid("(){}[]"))  
-print(s1.isValid("(]"))      
+print(s1.isValid("()")) 
+print(s1.isValid("[}"))  
+
